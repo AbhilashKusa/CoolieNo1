@@ -1,0 +1,118 @@
+# ==========================
+# 🚀 General (Miscellaneous)
+# ==========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ==========================
+# 🛠️ IntelliJ / JetBrains
+# ==========================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ==========================
+# 📌 Visual Studio Code (Uncomment if you want to exclude)
+# ==========================
+.vscode/
+
+# ==========================
+# 🏗️ Flutter/Dart/Pub
+# ==========================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/          # Ignore build artifacts
+windows/flutter/ephemeral/  # Windows binaries (unneeded)
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio specific build artifacts
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/.generated/
+
+# Linux
+linux/flutter/ephemeral/
+
+# macOS
+macos/flutter/ephemeral/
+
+# ==========================
+# 📦 Node.js / NPM / Yarn
+# ==========================
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variables file (secrets)
+.env
+
+# ==========================
+# 🖥️ IDEs and Editors
+# ==========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==========================
+# 🖥️ OS Generated Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# ⚠️ Large Files (Problematic for GitHub)
+# ==========================
+labour_frontend/windows/flutter/ephemeral/flutter_windows.dll.pdb

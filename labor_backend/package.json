@@ -1,0 +1,35 @@
+{
+  "name": "labor_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "module": "^1.2.5",
+    "morgan": "^1.10.0",
+    "password-validator": "^5.3.0",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "supertest": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "license": "ISC",
+  "description": "Backend for labor marketplace with secure authentication, PostgreSQL persistence, and stored procedures."
+}
